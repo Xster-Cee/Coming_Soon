@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #2B3034;
+    font-family: sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+.subsidiary h4 {
+    font-size: 1rem;
+    color: #00CE79;
+    text-transform: uppercase;
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+.soon {
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.details {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 1rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.boxes {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.1rem;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.description {
+    font-size: 0.8rem;
+}
+
+.title, .description {
+    border: 1px solid #242329;
+    background-color: #242329;
+    height: 10px;
+    width: 50px;
+    padding: 1rem;
+}
+
+.enquiry {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.enquiry button {
+    background-color: #00CE79;
+    height: 3rem;
+    border: 1px solid #00CE79;
+    width: 9.9rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.enquiry button:hover {
+    cursor: pointer;
+    background-color: #677B84;
+    border: 1px solid #677B84;
+    color: #242329;
+}
+
+.img-icon {
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+
+.icons {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.icons button {
+    border: 1px solid #ffffff;
+    border-radius: 5rem;
+    border-color: #ffffff;
+    padding: 0.5rem;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 900vw;
+    height: 90vh;
+}
+
+/* media query */
+@media only screen and (max-width: 768px) {
+    #container {
+        display: block;
+        margin-left: 0;
+    }
+
+    .details {
+        padding-right: 3rem;
+        padding-left: 3rem;
+        
+    }
+
+    .icons button {
+        margin-bottom: 2rem;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 900vw;
+        height: 75vh;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .subsidiary h4 {
+        font-size: 0.7rem;
+    }
+    
+    .soon {
+        font-size: 2.5rem;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 900vw;
+        height: 50vh;
+    }
+
+    .details {
+        font-size: 13px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+    
+    .description {
+        font-size: 0.7rem;
+    }
+    
+    .title, .description {
+        height: 5px;
+        width: 30px;
+    }
+}
